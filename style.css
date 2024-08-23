@@ -7,6 +7,7 @@
 }
 
 body {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,13 +18,18 @@ body {
     background-color: hsl(212, 45%, 89%);
 }
 
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     max-width:20rem;
-    min-height: 31.5rem;
+    min-height: 31rem;
     background-color: #fff;
     border-radius: 1.5rem;
     margin: 0 1.5rem;
